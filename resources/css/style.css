@@ -1,0 +1,127 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  background-color: black;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  1rem;
+}
+
+.container {
+  max-width: 960px;
+  background-color: beige;
+  margin: 0px auto;
+}
+
+/*Header & Navigation*/
+
+.secret {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: beige;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main {
+  background-image: url(../images/hotelOutside.jpeg);
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.main .support-text {
+  background-color: #008080;
+  color: white;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.main .support-text h2 {
+  text-align: center;
+}
+
+header nav ul {
+  background-color: beige;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.75rem 0rem;
+  justify-content: space-around;
+}
+
+/*Main Section*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  color: black;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.welcome-text h1 {
+  padding-bottom: 0.5rem;
+}
+
+.gallery {
+display: flex;
+flex-direction: row;
+width: 100%;
+overflow: hidden;
+justify-content: space-around;
+padding-top: 3rem;
+padding-bottom: 3rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: white;
+  color: black;
+}
+
+.box img {
+  height: 9rem;
+  border: 4px solid black;
+}
+
+.gallery .box-desc {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0rem;
+  text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+  color: black;
+  height: 5rem;
+  align-items: center;
+  text-align: left;
+  padding-left: 2rem;
+}
